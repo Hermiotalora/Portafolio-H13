@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --bg-overlay-opacity: 0.65;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 6, 9, 15;
+    --background-end-rgb: 12, 14, 20;
+    --bg-overlay-opacity: 0.7;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  /* Fondo con imagen y overlay para más contraste */
+  background-image: linear-gradient(
+      rgba(var(--background-start-rgb), var(--bg-overlay-opacity)),
+      rgba(var(--background-end-rgb), var(--bg-overlay-opacity))
+    ),
+    url('/images/bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

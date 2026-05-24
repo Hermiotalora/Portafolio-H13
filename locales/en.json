@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "greeting": "Hello, I'm",
+    "roles": [
+      "Hermi",
+      "Developer Full Stack",
+      "UI/UX Designer"
+    ],
+    "description": "A Fullstack Developer passionate about building scalable and user-friendly web applications. I specialize in frontend development but also have experience with backend technologies. Let's create something extraordinary together!",
+    "hireMe": "Hire Me",
+    "downloadCV": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a Full-Stack Developer with experience in building scalable web applications using technologies such as JavaScript, Python, PHP, and C-based languages. I work across the full development lifecycle, from frontend interfaces with HTML, CSS, and modern frameworks, to backend services with Node.js, Express, and RESTful APIs. I have a strong foundation in database design and management, working with SQL and NoSQL solutions including MySQL, PostgreSQL, SQLite, MongoDB, and BigQuery, as well as data modeling and query optimization. I apply agile methodologies, UML modeling, and best practices like TDD and SDLC to deliver clean, maintainable, and user-centered solutions. I am continuously learning and motivated to grow through challenging and innovative projects.",
+    "skills": "Skills",
+    "education": "Education",
+    "certifications": "Certifications",
+    "educationTitle": "Education",
+    "coursesTitle": "Courses & Certifications",
+    "courseraTitle": "Data Engineering – Coursera (IBM)",
+    "learningTitle": "Currently Learning",
+    "educationItems": [
+      "Secondary Education School No. 25 – \"Chacra de Perdriel\" Mar del Plata · 2020",
+      "Technical Systems Analyst – ISFT Nº151 Mar del Plata · 2023 – 2025"
+    ],
+    "courses": [
+      "Programming Girls Clubs – Globant (2020)",
+      "Programming – CFL Nº403 (2021)",
+      "Web Development – CFL Nº402 (2022)",
+      "Cybersecurity – Udemy · (2023)",
+      "Digital Marketing – CFL Nº416 · (2024)",
+      "Public Relations – CFL Nº404 · (2025)",
+      "Advanced JavaScript & React – BTech Latam · (2026)",
+      "Project Management – UCEMA · (2026)"
+    ],
+    "courseraItems": [
+      "ETL & Data Pipelines with Shell, Airflow & Kafka",
+      "Introduction to NoSQL Databases",
+      "Data Engineering & Machine Learning using Spark",
+      "Linux Commands & Shell Scripting",
+      "Relational Database Administration (DBA)",
+      "Data Warehouse Fundamentals",
+      "Python Project for Data Engineering",
+      "Data Engineering Capstone Project",
+      "NoSQL, Big Data & Spark Foundations (IBM)"
+    ],
+    "learning": "Applied Artificial Intelligence – EFP N9"
+  },
+  "navigation": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "achievements": {
+    "projects": "Projects",
+    "users": "Users",
+    "awards": "Awards",
+    "years": "Years"
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "description": "Looking for a passionate Full-Stack Developer for your next project? I’m open to new opportunities and collaborations. Let's build something extraordinary together!",
+    "email": "Your Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "success": "Email sent successfully!",
+    "placeholderEmail": "you@gmail.com",
+    "placeholderSubject": "Just saying hi",
+    "placeholderMessage": "Let your message here!"
+  },
+  "footer": {
+    "name": "Herminia Otalora Taquichiri",
+    "rights": "All rights reserved."
+  },
+  "projects": {
+    "title": "My Projects",
+    "tags": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile"
+    },
+    "list": [
+      {
+        "id": 1,
+        "title": "H-Productos",
+        "description": "Bootcamp final project focusing on product management with full CRUD, built with React, Vite and Firebase.",
+        "tags": [
+          "all",
+          "web"
+        ],
+        "image": "/images/projects/proyect1.png",
+        "gitUrl": "https://github.com/Hermiotalora/abm-productos",
+        "previewUrl": "https://abm-productos.pages.dev",
+        "umlUrl": "https://abm-productos.pages.dev/uml/diagrama-clases.png"
+      },
+      {
+        "id": 2,
+        "title": "Tex-Net",
+        "description": "Final technical project aimed at the textile industry, with molding, automatic chalking and sublimation modules, developed with JavaScript and Web Components.",
+        "tags": [
+          "all",
+          "web"
+        ],
+        "image": "/images/projects/proyect2.png",
+        "gitUrl": "https://github.com/Hermiotalora/PP3-Gestion-de-Moldes/tree/master",
+        "previewUrl": "https://texnet-pp3.surge.sh"
+      },
+      {
+        "id": 3,
+        "title": "Game-JAVA",
+        "description": "Academic project developed at the institute based on the classic video game Arkanoid.",
+        "tags": [
+          "all",
+          "web"
+        ],
+        "image": "/images/projects/proyect3.png",
+        "gitUrl": "https://github.com/Hermiotalora/Game-JAVA-main",
+        "previewUrl": "https://game-java-main.pages.dev"
+      }
+    ]
+  }
+}

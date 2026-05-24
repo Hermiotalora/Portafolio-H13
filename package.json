@@ -1,0 +1,38 @@
+{
+  "name": "portfolio-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.5",
+    "eslint-config-next": "^14.2.35",
+    "framer-motion": "^11.3.31",
+    "i18next": "^24.2.0",
+    "next": "^14.2.35",
+    "next-i18next": "^15.4.1",
+    "react": "^18",
+    "react-animated-numbers": "^0.18.0",
+    "react-dom": "^18",
+    "react-i18next": "^15.2.0",
+    "react-icons": "^5.3.0",
+    "react-type-animation": "^3.2.0",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "^1.5.2",
+    "@svgr/webpack": "^8.1.0",
+    "autoprefixer": "^10.4.23",
+    "eslint": "^8.57.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "wrangler": "^4.90.0"
+  }
+}
