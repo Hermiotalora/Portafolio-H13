@@ -92,7 +92,7 @@
         ],
         "image": "/images/projects/proyect1.png",
         "gitUrl": "https://github.com/Hermiotalora/abm-productos",
-        "previewUrl": "https://abm-productos.pages.dev",
+        "previewUrl": "https://abm-productos-phi.vercel.app/",
         "umlUrl": "https://abm-productos.pages.dev/uml/diagrama-clases.png"
       },
       {
@@ -117,7 +117,7 @@
         ],
         "image": "/images/projects/proyect3.png",
         "gitUrl": "https://github.com/Hermiotalora/Game-JAVA-main",
-        "previewUrl": "https://game-java-main.pages.dev"
+        "previewUrl": "https://game-java-main.vercel.app/"
       }
     ]
   }
